@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="822" height="880" viewBox="0 0 822 880">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_302" data-name="Rectángulo 302" width="822" height="880" transform="translate(1098 3043)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Enmascarar_grupo_3" data-name="Enmascarar grupo 3" transform="translate(-1098 -3043)" opacity="0.26" clip-path="url(#clip-path)">
+    <g id="Grupo_13815" data-name="Grupo 13815" transform="translate(-217.549 3963.218)">
+      <g id="Grupo_13812" data-name="Grupo 13812" transform="translate(1504.281 -920.6)" opacity="0.46">
+        <rect id="Rectángulo_290" data-name="Rectángulo 290" width="62.523" height="726.649" transform="translate(44.211 558.029) rotate(-135)" fill="#ccebd1"/>
+        <rect id="Rectángulo_291" data-name="Rectángulo 291" width="62.523" height="726.649" transform="translate(121.068 634.887) rotate(-135)" fill="#ccebd1"/>
+        <rect id="Rectángulo_292" data-name="Rectángulo 292" width="62.523" height="726.649" transform="matrix(-0.707, -0.707, 0.707, -0.707, 197.927, 711.745)" fill="#ccebd1"/>
+        <rect id="Rectángulo_293" data-name="Rectángulo 293" width="62.523" height="726.649" transform="translate(274.784 788.602) rotate(-135)" fill="#ccebd1"/>
+      </g>
+      <g id="Grupo_13813" data-name="Grupo 13813" transform="translate(1676.024 -737.458)" opacity="0.77">
+        <rect id="Rectángulo_294" data-name="Rectángulo 294" width="34.609" height="858.73" transform="translate(127.631 24.472) rotate(-45)" fill="#fff"/>
+        <rect id="Rectángulo_295" data-name="Rectángulo 295" width="34.609" height="858.73" transform="translate(85.087 67.016) rotate(-45)" fill="#fff"/>
+        <rect id="Rectángulo_296" data-name="Rectángulo 296" width="34.609" height="858.73" transform="translate(42.542 109.561) rotate(-45)" fill="#fff"/>
+        <rect id="Rectángulo_297" data-name="Rectángulo 297" width="34.609" height="858.73" transform="translate(0 152.103) rotate(-45)" fill="#fff"/>
+      </g>
+      <g id="Grupo_13814" data-name="Grupo 13814" transform="translate(1809.557 -252.739)" opacity="0.45">
+        <rect id="Rectángulo_298" data-name="Rectángulo 298" width="34.609" height="402.228" transform="matrix(0.707, -0.707, 0.707, 0.707, 127.632, 24.472)" fill="#009a17"/>
+        <rect id="Rectángulo_299" data-name="Rectángulo 299" width="34.609" height="402.228" transform="translate(85.088 67.016) rotate(-45)" fill="#009a17"/>
+        <rect id="Rectángulo_300" data-name="Rectángulo 300" width="34.609" height="402.228" transform="translate(42.544 109.56) rotate(-45)" fill="#009a17"/>
+        <rect id="Rectángulo_301" data-name="Rectángulo 301" width="34.609" height="402.228" transform="translate(0 152.104) rotate(-45)" fill="#009a17"/>
+      </g>
+    </g>
+  </g>
+</svg>

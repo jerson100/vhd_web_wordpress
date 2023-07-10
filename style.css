@@ -1,0 +1,362 @@
+/*
+    Theme Name: theme_invitro
+    Theme URI:
+    Description: Tema para la web
+    Author: InVitro Agencia Digital
+    Version: 1.0
+    License: GNU General Public License v2 or Later
+    Tags: Wordpress
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Roboto:wght@100;400;500;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Lora", serif;
+  /* font-family: 'Roboto', sans-serif; */
+  --border: #111111;
+  --bg: #111111;
+  --color: #111111;
+  --text: #ffffff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.ul_menu li,
+.ul_menu a {
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+}
+
+.ul_menu li.btn:hover {
+  background: #009a17;
+  border-color: #009a17;
+}
+
+.atributos li:last-child {
+  display: none;
+}
+
+.nosotros {
+  background: url(images/formas-1.png) no-repeat;
+  background-position: right bottom;
+  background-size: contain;
+}
+
+.politicas p {
+  margin-bottom: 20px;
+}
+
+.politicas .home {
+  margin-top: 70px;
+}
+
+#preview {
+  transition: all 0.2s ease;
+}
+
+.nuestros_productos .splide__arrow {
+  background: #009a17;
+}
+
+.nuestros_productos .splide__arrow svg {
+  fill: white;
+}
+
+.nuestros_productos .splide__arrow--prev {
+  left: -3em;
+}
+
+.nuestros_productos .splide__arrow--next {
+  right: -3em;
+}
+
+@media (max-width: 1600px) {
+  .nuestros_productos .splide__arrow--prev {
+    left: -2em;
+  }
+
+  .nuestros_productos .splide__arrow--next {
+    right: -2em;
+  }
+}
+
+.our_products .splide__slide {
+  width: fit-content !important;
+}
+
+.nuestros_productos .splide__track,
+.our_products .splide__track {
+  padding: 6px !important;
+}
+
+/*.icon{
+  width: 90px;
+  aspect-ratio: 1/1;
+}*/
+
+.container {
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+input,
+textarea {
+  font-family: "Roboto", sans-serif;
+}
+
+.btn {
+  font-family: "Roboto", sans-serif;
+  padding: 0.5rem 1rem;
+  font-size: 16px;
+  border-radius: 0.25rem;
+  min-width: 186px;
+  font-weight: normal;
+  cursor: pointer;
+  background-color: var(--bg);
+  color: var(--text);
+  border: solid 1px var(--border);
+  border-radius: 5px;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  text-align: center;
+  display: inline-block;
+  @media screen and (min-width: 1500px) {
+    font-size: 27px;
+  }
+}
+
+.btn--sm {
+  font-size: 1rem;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 10px;
+  padding-left: 10px;
+  @media screen and (min-width: 1500px) {
+    font-size: 20px;
+  }
+}
+
+.btn-outline {
+  --border: var(--color);
+  --bg: transparent;
+  --text: var(--color);
+}
+
+.btn-contained {
+  --border: var(--color);
+  --bg: #111111;
+  --text: #ffffff;
+}
+
+.btn-primary {
+  --color: #111111;
+}
+
+.btn-white {
+  --color: #ffffff;
+}
+
+.btn-p1 {
+  padding: 0.3rem;
+}
+
+.section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  @media screen and (min-width: 1500px) {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+
+.title-line {
+}
+
+.title-line::after {
+  content: "";
+  background: #000000;
+  width: 100%;
+  display: block;
+  height: 3px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.5rem;
+}
+
+.title-line--sm::after {
+  width: 30%;
+}
+.title-line--md::after {
+  width: 50%;
+}
+.title-line--lg::after {
+  width: 80%;
+}
+.title-line--xl::after {
+  width: 94%;
+}
+
+.title-line--light::after {
+  background: #ffffff;
+}
+
+.title-line--gray::after {
+  background: #d2d2d2;
+}
+
+.title-line--dl::after {
+  margin-left: initial;
+}
+
+.section-title {
+  font-size: 23px;
+  line-height: 35px;
+  @media screen and (min-width: 1024px) {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  @media screen and (min-width: 1500px) {
+    font-size: 50px;
+    line-height: 58px;
+  }
+}
+
+.section-subtitle {
+  font-size: 20px;
+  @media screen and (min-width: 1024px) {
+    font-size: 23px;
+  }
+  @media screen and (min-width: 1500px) {
+    font-size: 41px;
+  }
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+  @media screen and (min-width: 1024px) {
+    font-size: 18px;
+  }
+  @media screen and (min-width: 1500px) {
+    font-size: 25px;
+    line-height: 35px;
+  }
+}
+.input {
+  padding: 8px 1rem;
+  border: solid 1px #c5c5c5;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #00000044;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #00000071;
+  border-radius: 50px;
+}
+
+/* Cambiar el ancho del scroll */
+::-webkit-scrollbar {
+  width: 14px;
+  @media screen and (min-width: 1024px) {
+    width: 20px;
+  }
+  /* background-color: #000000c7; */
+}
+
+.hamburger {
+  & > div {
+    transform-origin: left;
+    transition: transform 250ms linear, opacity 250ms linear;
+  }
+  &.active {
+    & > div:nth-child(1) {
+      transform: rotate(45deg);
+    }
+    & > div:nth-child(2) {
+      opacity: 0;
+    }
+    & > div:nth-child(3) {
+      transform: rotate(-45deg);
+    }
+  }
+}
+
+body {
+  --w-header: 106px;
+  margin-top: var(--w-header);
+  @media screen and (min-width: 1500px) {
+    --w-header: 155px;
+  }
+}
+
+.screen-top {
+  min-height: calc(100vh - var(--w-header));
+}
+
+.banner-title {
+  font-size: 26px;
+  @media screen and (min-width: 1024px) {
+    font-size: 35px;
+  }
+  @media screen and (min-width: 1500px) {
+    font-size: 100px;
+  }
+}
+
+.navigator {
+  @media screen and (max-width: 1023px) {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    transition: transform 250ms ease-in-out;
+    transform: translateX(-100%);
+    background-color: #0000007a;
+    backdrop-filter: blur(10px);
+    & .navigator__close {
+      display: none;
+    }
+    & ul {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      align-items: center;
+      overflow-y: auto;
+      justify-content: center;
+      flex-wrap: nowrap;
+      & li {
+        & a {
+          color: #ffff;
+        }
+      }
+    }
+    &.active {
+      transform: translateX(0);
+      & .navigator__close {
+        display: block;
+      }
+    }
+  }
+}

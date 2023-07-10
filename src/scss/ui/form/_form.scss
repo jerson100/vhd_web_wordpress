@@ -1,0 +1,71 @@
+@use "base/mixins" as m;
+@use "base/variables" as v;
+
+form:not(.search-form){
+    padding: 2.5rem 3rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    .wpcf7-response-output{
+        border: none;
+        text-align: center;
+        padding: 0;
+        margin-bottom: 0;
+    }
+    .wpcf7-spinner{
+        position: absolute;
+        width: 100%;
+        inset: 0;
+        height: 100%;
+        border-radius: 0;
+        margin: 0;
+        &::before{
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+    input, textarea, button{
+        outline: none;
+    }
+    input{
+        border-radius: 5px;
+    }
+    input:not([type="submit"]), textarea{
+        border: 1px solid #707070;
+        background: white;
+        color: #707070;
+        margin: 0;
+        width: 100%;
+        min-height: 48px;
+        padding-inline: 12px;
+    }
+    textarea {
+        resize: none;
+        padding-block: 12px;
+        max-height: 120px;
+    }
+    [type="submit"]{
+        background: #000;
+        border: 2px solid #000;
+        text-align: center;
+        width: fit-content;
+        margin: 0 auto;
+        color: white;
+        min-height: 52px;
+        padding-inline: 26px;
+        &:hover{
+            background: transparent;
+            color: #009A17;
+            border-color: #009A17;
+        }
+    }
+    &>p{
+        @include m.flex(center, 10px);
+        flex-direction: column;
+        span{
+            width: 100%;
+        }
+    }
+}

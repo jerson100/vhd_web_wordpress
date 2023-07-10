@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'GorditaMedium';
+    src: url(../../fonts/GorditaMedium.otf);
+    font-weight: 100;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'GorditaRegular';
+    src: url(../../fonts/GorditaRegular.otf);
+    font-weight: 100;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'GorditaBold';
+    src: url(../../fonts/GorditaBold.otf);
+    font-weight: 100;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'GorditaBlack';
+    src: url(../../fonts/GorditaBlack.otf);
+    font-weight: 100;
+    font-display: swap;
+}
+
+// Fuentes
+$medium: 'GorditaMedium';
+$regular: 'GorditaRegular';
+$bold: 'GorditaBold';
+$black: 'GorditaBlack';
+
+// Medidas de Media Queries
+$telefono: 480px;
+$tablet: 768px;
+$tablet_lg: 942px;
+$desktop: 1024px;
+$desktop_lg: 1200px;
+$television: 1462px;
+
+// Colores
+$blanco: #ffffff;
+$sombra: #00000029;
+$gris: #3D3D3D;
+$gris-claro: #E7E7E7;
+$guinda: #9D325E;
+$rosa: #CC4482;
+$azul: #2A344F;
+$azul-claro: #53699B;
+$celeste: #7EA4ED;
